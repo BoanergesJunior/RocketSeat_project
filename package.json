@@ -1,0 +1,20 @@
+{
+  "name": "RocketSeat_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BoanergesJunior/RocketSeat_project.git",
+  "author": "Boanerges Junior <boanerges_junior@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
