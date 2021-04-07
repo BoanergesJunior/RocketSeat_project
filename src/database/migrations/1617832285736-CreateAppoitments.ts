@@ -1,4 +1,3 @@
-import { query } from "express";
 import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
 export default class CreateAppoitments1617832285736 implements MigrationInterface {
@@ -28,7 +27,7 @@ export default class CreateAppoitments1617832285736 implements MigrationInterfac
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable('apointments')
+        await queryRunner.dropTable('appointments')
     }
 
 }

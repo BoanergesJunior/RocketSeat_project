@@ -1,15 +1,15 @@
 import {uuid} from 'uuidv4'
 
-class Apointment {
+class Appointment {
     id: string
     provider: string
     date: Date
 
-    constructor({provider, date}: Omit <Apointment, 'id'>){
+    constructor({provider, date}: Omit <Appointment, 'id'>){
         this.id = uuid()
         this.provider = provider
         this.date = date
     }
 }
 
-export default Apointment
+export default Appointment
