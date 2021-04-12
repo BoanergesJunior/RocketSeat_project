@@ -1,3 +1,4 @@
-import appontimentsRouter from './appointments.routes'
+import appontmentsRouter from './appointments.routes'
+import usersRouter from './users.routes'
 
-export {appontimentsRouter}
+export {appontmentsRouter, usersRouter}
