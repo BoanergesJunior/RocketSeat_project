@@ -20,7 +20,7 @@ $git clone https://github.com/BoanergesJunior/RocketSeat_project.git
 
 $cd RocketSeat_project
 
-$yarn i ||
+$yarn i
 
 $yarn dev:server
 ```
